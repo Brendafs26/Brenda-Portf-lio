@@ -376,7 +376,7 @@ header {
   font-family: var(--font-action);
   font-weight: bolder;
   color: #ff4081;
-  margin-bottom: 1.5rem;
+ 
 }
 
 .card-info p {
@@ -384,7 +384,7 @@ header {
   color: #eee;
   font-weight: 400;
   width: 80%;
-  margin-bottom: 2rem;
+  
 }
 
 .btn {
