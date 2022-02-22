@@ -329,11 +329,12 @@ header {
 }
 
 .card {
-  width: 18rem;
-  height: 25rem;
+  width: 20%;
+  height: 20%;
   position: relative;
-  
+ 
 }
+
 
 .card-img-wrapper {
   width: 100%;
@@ -360,7 +361,9 @@ header {
   bottom: 0;
   opacity: 0;
   visibility: hidden;
-  padding: 2rem;
+  width: 200px;
+  
+  
   text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
   transition: all 0.3s;
 }
@@ -370,6 +373,7 @@ header {
   font-size: 2rem;
   font-weight: 500;
   color: #eee;
+  
 }
 
 .card-info h3 {
@@ -384,7 +388,7 @@ header {
   color: #eee;
   font-weight: 400;
   width: 80%;
-  
+
 }
 
 .btn {
@@ -398,18 +402,23 @@ header {
   border: none;
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
   
+  cursor: pointer;
+  
+
 }
 
 .card-info button {
   
   width: 8rem;
   height: 2.5rem;
+   margin-left: 50%;
+   margin-right: 50%;
 }
 
 
 
 .card:hover .card-info {
-  bottom: 2rem;
+  
   opacity: 1;
   visibility: visible;
 }
@@ -636,5 +645,7 @@ footer{
   border-radius: .3rem;
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
+
+
 
 
